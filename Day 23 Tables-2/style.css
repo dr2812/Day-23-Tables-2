@@ -1,0 +1,63 @@
+body{
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkgrey;
+}
+
+#CBSE{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orangered;
+}
+#memo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+#sse{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+}
+
+th{
+    border: 2px solid black;;
+}
+
+td{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+thead{
+    background-color: orangered;
+}
+
+tbody{
+    background-color: aqua;
+}
+
+tfoot{
+    background-color: orange;
+}
+
+tr:nth-child(even){
+    background-color: azure;
+}
+
+tr:hover{
+    background-color: yellowgreen;
+}
+
+td:hover{
+    background-color: blueviolet;
+}
